@@ -19,6 +19,7 @@
     vertical-align: middle;
     border-radius: 0px 0px 7px 7px;
 	padding: 0;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 #navbar a:hover{
     background-color: #6060ff;
