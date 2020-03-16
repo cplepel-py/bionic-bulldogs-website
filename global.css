@@ -8,7 +8,7 @@
     z-index: 1001;
 	height: 2.8em;
 }
-#navbar a {
+#navbar .nav-elem {
     width: 20%;
     text-align: center;
     color: #ffffff;
@@ -19,9 +19,8 @@
     vertical-align: middle;
     border-radius: 0px 0px 7px 7px;
 	padding: 0;
-    font-family: Tahoma, Geneva, sans-serif;
 }
-#navbar a:hover{
+#navbar .nav-elem:hover{
     background-color: #6060ff;
     font-family: Tahoma, Geneva, sans-serif;
 }
@@ -44,21 +43,29 @@ h1, .header {
     width: 100%;
     display: block;
     z-index: 1000;
+	font-size: 2.4em;
 }
 .logo {
-    height: 100%;
+    /*height: 100%;*/
     float: left;
-	clip-path: circle(47% at center);
-    /*clip-path: circle(1.32em at center);*/
-    /*height: 2.8em;*/
+	/*clip-path: circle(47% at center);*/
+    clip-path: circle(1.32em at center);
+    height: 2.8em;
 }
 body {
     font-family: Tahoma, Geneva, sans-serif;
 }
 #spacer {
     width: 100%;
+	height: 2.8em;
 }
 footer {
     text-align: center;
     font-size: 0.7em;
+}
+p a {
+	color: blue;
+}
+p a:visited {
+	color: purple;
 }
